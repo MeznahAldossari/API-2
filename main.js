@@ -18,7 +18,7 @@ async function images() {
     // div.setAttribute("class", "div2");
     img.src = `https://http.cat/${resCodes[index]}`;
     img.style.width = "20vw";
-    img.style.height = "20vh";
+    img.style.height = "50vh";
     // div.append(img);
     mainDiv.append(img);
   }
