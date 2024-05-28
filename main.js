@@ -7,10 +7,7 @@ const resCodes = [
   503, 504, 506, 507, 508, 509, 510, 511, 521, 522, 523, 525, 530, 599,
 ];
 console.log();
-async function images() {
-  //   let fetching = await fetch(url);
-  //   let data = await fetching.json();
-
+function images() {
   for (let index = 0; index < resCodes.length; index++) {
     // div = document.createElement("div");
     img = document.createElement("img");
